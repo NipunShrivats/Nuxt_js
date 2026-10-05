@@ -11,6 +11,8 @@
     <h3><NuxtLink to="/products">Go to Products</NuxtLink></h3>
 
     <h3><NuxtLink to="/blogs">Go to blogs</NuxtLink></h3>
+
+    <h3><NuxtLink to="/products/reviews">Product Reviews</NuxtLink></h3>
   </div>
 </template>
 

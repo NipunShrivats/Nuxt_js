@@ -10,7 +10,7 @@
       <slot></slot>
     </main>
     <footer style="background: palevioletred; padding: 18px">
-      <p>Site Footer</p>
+      <Footer />
     </footer>
   </div>
 </template>
