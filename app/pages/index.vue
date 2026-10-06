@@ -13,6 +13,8 @@
     <h3><NuxtLink to="/blogs">Go to blogs</NuxtLink></h3>
 
     <h3><NuxtLink to="/products/reviews">Product Reviews</NuxtLink></h3>
+    <h3><NuxtLink to="/reactive">Reactive Examples</NuxtLink></h3>
+    <h3><NuxtLink to="/piniaexe">Pinia Example</NuxtLink></h3>
   </div>
 </template>
 
