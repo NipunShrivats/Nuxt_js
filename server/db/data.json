@@ -181,14 +181,14 @@
   },
   {
     "id": 31,
-    "name": "Stand",
+    "name": "Pikachu",
     "price": 190,
-    "category": "Stationary"
+    "category": "Pokimon"
   },
   {
     "id": 32,
-    "name": "Comb",
+    "name": "Doggy",
     "price": 200,
-    "category": "Grooming"
+    "category": "Rapper"
   }
 ]

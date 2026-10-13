@@ -25,3 +25,14 @@ export async function writeData(data) {
     });
   }
 }
+
+export async function updateItem(id, fields) {
+  const data = await readData();
+  const itemIndex = data.findIndex((item) => item.id === id);
+  if (itemIndex === -1) return null;
+
+  // Merge existing item with new fields, prevent id from being overwritten
+  data[itemIndex] = { ...data[itemIndex], ...fields, id };
+  await writeData(data);
+  return data[itemIndex];
+}
