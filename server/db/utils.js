@@ -36,3 +36,14 @@ export async function updateItem(id, fields) {
   await writeData(data);
   return data[itemIndex];
 }
+
+export async function deleteItem(id) {
+  const data = await readData();
+  const itemIndex = data.findIndex((item) => item.id === id);
+  if (itemIndex === -1) return null;
+
+  // Remove the item and return it
+  const [deletedItem] = data.splice(itemIndex, 1);
+  await writeData(data);
+  return deletedItem;
+}

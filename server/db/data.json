@@ -178,17 +178,5 @@
     "name": "Wall Clock",
     "price": 550,
     "category": "Furniture"
-  },
-  {
-    "id": 31,
-    "name": "Pikachu",
-    "price": 190,
-    "category": "Pokimon"
-  },
-  {
-    "id": 32,
-    "name": "Doggy",
-    "price": 200,
-    "category": "Rapper"
   }
 ]
